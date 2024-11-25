@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form-container{
+    background-color: #1F4F84;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 55vh; 
+}
+
+.createAccountHeading{
+    color: white;
+ 
+}
+
+.form-wrapper{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2px;
+   
+}
+
+.form-group{
+    margin-bottom: 1rem;
+    border: lightgray;
+    text-align: left;
+    
+}
+
+.form-group label{
+    display: block;
+    color: #1F4F84;
+   
+}
+.form-group input{
+    height: 1.5rem;
+   
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    height: 2.5rem;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
